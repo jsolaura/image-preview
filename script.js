@@ -98,3 +98,8 @@
 
     }
 )('pop_images', 'btn_att')
+
+function codeShow() {
+    const codebox = document.querySelector('.code-box')
+    codebox.classList.toggle('active');
+}

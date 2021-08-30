@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image Preview</title>
     <link rel="stylesheet" href="./style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
 </head>
 <body>
-    <div class="pop-img-container">
-        <h3>이미지 미리보기</h3>
-        <label for="btn_att" class="pop-add">+</label>
-        <input type="file" multiple name="files[]" id="btn_att" class="file-hidden">
-        <div id="pop_images" data-placeholder="파일을 첨부하려면 파일 선택 버튼을 클릭하세요"></div>
+    <div class="wrapper">
+        <div class="pop-img-container">
+            <h3>이미지 미리보기</h3>
+            <label for="btn_att" class="pop-add">+</label>
+            <input type="file" multiple name="files[]" id="btn_att" class="file-hidden">
+            <div id="pop_images" data-placeholder="파일을 첨부하려면 파일 선택 버튼을 클릭하세요"></div>
+        </div>
+        <div class="code-container">
+            <h2 onclick="codeShow()">코드보기 👇🏻🖱</h2>
+            <div class="code-box">
+                <div class="code">
+                    <em>1</em>
+                    <img src="./screen1.jpg" alt="">
+                </div>
+                <div class="code">
+                    <em>2</em>
+                    <img src="./screen2.jpg" alt="">
+                </div>
+                <div class="code last">
+                    <em>3</em>
+                    <img src="./screen3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
     </div>
+    
     <script src="./script.js"></script>
 </body>
 </html>
