@@ -6,9 +6,12 @@
 
 .pop-img-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 590px;
     margin: 0 auto;
     margin-top: 2rem;
+}
+
+.pop-img-container h3 {
     text-align: center;
 }
 
@@ -33,6 +36,7 @@
     border: 1px solid #eee;
     background: rgba(0, 0, 0, .2);
     overflow: hidden;
+    text-align: left;
 }
 
 #pop_images:empty::before {
