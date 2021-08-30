@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .pop-img-container {
     width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
     margin-top: 2rem;
-    align-items: center;
+    text-align: center;
 }
 
 .pop-add {
